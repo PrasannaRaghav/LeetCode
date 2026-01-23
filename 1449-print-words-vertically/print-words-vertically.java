@@ -27,7 +27,7 @@ class Solution {
         while (end>=0 && str.charAt(end)==' ') {
             end--;
         }
-        return str.substring(0, end + 1);
-    }
-    
+        String res=str.substring(0,end+1);
+        return res;
+    }   
 }
