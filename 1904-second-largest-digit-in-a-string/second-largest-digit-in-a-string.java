@@ -1,5 +1,8 @@
 class Solution {
     public int secondHighest(String s) {
+        if(s.length()==0){
+            return -1;
+        }
     int largest = -1;
     int second = -1;
     for(int i=0;i<s.length();i++){
